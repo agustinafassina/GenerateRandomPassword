@@ -8,7 +8,7 @@ class PasswordGenerator
     {
         int length = 16;
         string password = GenerateSecurePassword(length);
-        Console.WriteLine($"Generated Password with net9: {password}");
+        Console.WriteLine($"Password generated with net9: {password}");
     }
 
     static string GenerateSecurePassword(int length)

@@ -4,7 +4,7 @@ public class GeneratePassword {
     public static void main(String[] args) {
         int length = 16;
         String password = generateSecurePassword(length);
-        System.out.println("Generated Password: " + password);
+        System.out.println("Password generated with java: " + password);
     }
 
     public static String generateSecurePassword(int length) {

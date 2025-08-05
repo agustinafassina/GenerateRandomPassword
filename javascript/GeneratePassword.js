@@ -1,0 +1,11 @@
+function generatePassword(length = 16) {
+    const charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_-+=[]{}|;:,.<>?";
+    let password = "";
+    for (let i = 0; i < length; i++) {
+        const randomIndex = crypto.getRandomValues(new Uint32Array(1))[0] % charset.length;
+        password += charset.charAt(randomIndex);
+    }
+    return password;
+}
+
+console.log("Password generated with javascript:", generatePassword(16));
