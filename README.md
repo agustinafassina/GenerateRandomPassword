@@ -8,8 +8,8 @@ This repository contains a variety of scripts developed in different technologie
 ### Run script 🚀
 - Bash: cd bash
 ```
-sh GeneratePassword.sh
-sh GeneratePasswordWithOpenSsl.sh
+sh generate-password.sh
+sh generate-password-open-ssl.sh
 ```
 
 - csharp
@@ -28,17 +28,20 @@ java GeneratePassword
 - Javascript
 ```
 cd Javascript
-node GeneratePassword.js
+node generate-password.js
 ```
 
 - Powershell:
 ```
 cd Powershell
-.\GeneratePassword.ps1
+.\generate-password.ps1
+.\generate-password-with-parameters.ps1
 ```
 
 - Python:
 ```
-cd Python
-py GeneratePassword.py
+cd python
+py generate-password.py
 ```
+
+#### Repository version: 2.0
