@@ -44,4 +44,8 @@ cd python
 py generate-password.py
 ```
 
-#### Repository version: 2.0
+#### Repository version
+2.0
+
+#### Licence
+By Agustina Fassina
